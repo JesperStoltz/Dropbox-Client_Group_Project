@@ -1,0 +1,46 @@
+.userMain{
+    position: relative;
+    
+}
+.userFlag{
+    position: relative;
+    top: 7px;
+    left: -28px;
+}
+.userName{
+    position: relative;
+    top: -32px;
+    margin-right: 7px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+.userMail{
+    position: relative;
+    top: -32px;
+    margin-right: 5px;
+    color: #4d4d4d;
+}
+.userMailAtag{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+.userMailAtag:hover {
+    text-decoration: underline;
+}
+.userPhoto{
+    position: relative;
+    top: -20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+}
+.userPhotoBig{
+    display: none;
+    position: absolute;
+    top: -14px;
+    right: -10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    pointer-events: none;
+}
